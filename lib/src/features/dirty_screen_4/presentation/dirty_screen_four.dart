@@ -13,17 +13,18 @@ class DirtyScreenFour extends StatelessWidget {
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
-            ColoredBoxes(color: Colors.blue, icon: Icons.home, title: "Home"),
             ColoredBoxes(
-                color: Colors.lightGreen,
-                icon: Icons.work_history_rounded,
-                title: "Work"),
+                color: Colors.blue, icon: Icon(Icons.home), title: "Home"),
+            ColoredBoxes(
+                color: Colors.green, icon: Icon(Icons.work), title: "Work"),
             ColoredBoxes(
                 color: Colors.orange,
-                icon: Icons.school_rounded,
+                icon: Icon(Icons.school),
                 title: "School"),
             ColoredBoxes(
-                color: Colors.purple, icon: Icons.bike_scooter, title: "Bike"),
+                color: Colors.purple,
+                icon: Icon(Icons.bike_scooter),
+                title: "Bike"),
           ],
         ),
       ),

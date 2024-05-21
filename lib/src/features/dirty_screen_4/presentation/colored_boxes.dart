@@ -5,7 +5,8 @@ class ColoredBoxes extends StatelessWidget {
       {super.key,
       required this.color,
       required this.icon,
-      required this.title});
+      required this.title,
+      required MaterialColor colors});
 
   final Color color;
   final Icon icon;
